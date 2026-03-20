@@ -1,0 +1,11 @@
+name = "portfolio"
+version = "0.1.0"
+defaultTargets = ["portfolio"]
+
+[[lean_lib]]
+name = "Portfolio"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
